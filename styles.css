@@ -1,0 +1,140 @@
+/* Reset some default styling */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #00008B;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header p {
+    font-size: 1rem;
+}
+
+nav {
+    background-color: #E6E6FA;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section#about {
+    background-color: #FFDAB9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.section#about h2 {
+    font-size: 1.5rem;
+}
+
+.section#about p {
+    text-align: left;
+}
+
+section#about .profile-image {
+    max-width: 90%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 20px;
+}
+
+section#skills {
+    background-color: #E6E6FA;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.section#skills h2 {
+    font-size: 1.5rem;
+}
+
+section#skills ul {
+    list-style: none;
+}
+
+section#skills li {
+    margin: 10px 0;
+}
+
+section#projects {
+    background-color: #E6E6FA;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.section#projects h2 {
+    font-size: 1.5rem;
+}
+
+.section#projects .project {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.section#projects h3 {
+    font-size: 1.2rem;
+}
+
+.section#projects p {
+    text-align: left;
+}
+
+section#resume {
+    background-color: #E6E6FA;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.section#resume h2 {
+    font-size: 1.5rem;
+}
+
+section#contact {
+    background-color: #00008B;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.section#contact h2 {
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
